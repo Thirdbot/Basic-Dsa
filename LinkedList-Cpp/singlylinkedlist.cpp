@@ -74,6 +74,8 @@ int main() {
     SinglyLinkedList list(10);
     list.add(20);
     list.add(30);
+
+    // #visualize list.typeConvert()
     list.traverse(); // Output: 10 -> 20 -> 30 -> NULL
     list.remove(20);
     list.traverse(); // Output: 10 -> 30 -> NULL
